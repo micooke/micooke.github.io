@@ -15,3 +15,6 @@ Which installs the latest release of:
     4.4 Add ```https://micooke.github.io/package_nRF5_smartwatches_index.json``` as an "Additional Board Manager URL"
 5. Open the Boards Manager from the Tools -> Board menu and install "Nordic Semiconductor nRF5 Smartwatches"
 6. Select your nRF5 smartwatch from the Tools -> Board menu
+
+### Other Pages
+[Taida Century nRF52 mini board / nRF52832 Gold Core](nRF52832_TaidaCentury_GoldCore/README)

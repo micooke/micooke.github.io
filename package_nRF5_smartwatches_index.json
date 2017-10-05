@@ -22,6 +22,10 @@
             {"name": "ID100HR"},
             {"name": "ID107HR"},
             {"name": "ID107HR Plus"}
+          ],
+          "toolsDependencies": [
+            { "packager": "sandeepmistry", "name": "gcc-arm-none-eabi", "version": "5_2-2015q4" },
+            { "packager": "sandeepmistry", "name": "openocd", "version": "0.10.0-dev.nrf5" }
           ]
         },
         {
@@ -38,6 +42,10 @@
             {"name": "IDO003"},
             {"name": "ID100HR"},
             {"name": "ID107HR"}
+          ],
+          "toolsDependencies": [
+            { "packager": "sandeepmistry", "name": "gcc-arm-none-eabi", "version": "5_2-2015q4" },
+            { "packager": "sandeepmistry", "name": "openocd", "version": "0.10.0-dev.nrf5" }
           ]
         }
       ],

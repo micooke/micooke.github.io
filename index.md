@@ -17,4 +17,4 @@ Which installs the latest release of:
 6. Select your nRF5 smartwatch from the Tools -> Board menu
 
 ### Other Pages
-[Taida Century nRF52 mini board / nRF52832 Gold Core](nRF52832_TaidaCentury_GoldCore/README)
+[Taida Century nRF52 mini board / nRF52832 Gold Core](nRF52832_TaidaCentury_GoldCore)

@@ -50,7 +50,7 @@ According to the schematics below the generic development board is a ```CC2640RS
 ### Images
 ![nrf52832 top](nRF52832_TaidaCentury_GoldCore/nrf52832_bottom.jpg)
 ![nrf52832 bottom](nRF52832_TaidaCentury_GoldCore/nrf52832_bottom.jpg)
-![nrf52832 breakout module](nRF52832_TaidaCentury_GoldCore/nrf52832_breakout.png)
+![nrf52832 breakout module](nRF52832_TaidaCentury_GoldCore/nrf52832_breakout.jpg)
 
 ### downloads
 

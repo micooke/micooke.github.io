@@ -1,4 +1,5 @@
 ### Taida Century nRF52 mini board / nRF52832 Gold Core
+![nrf52832 top](nrf52832_bottom.jpg)
 
 The Taida Century nRF52 mini board / nRF52832 Gold Core development board is available from several online retailers and is similarly priced to the [SparkFun nRF52832 Breakout](https://www.sparkfun.com/products/13990), or a smaller (and cheaper) alternative of the Nordic [nRF52 DK](https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF52-DK).
 
@@ -46,12 +47,15 @@ According to the schematics below the generic development board is a ```CC2640RS
 
 * Pin allocation for SPI and I2C reflective of the variant.h as of 6/10/2017 
 
-### downloads
+### Images
+![nrf52832 top](nrf52832_bottom.jpg)
+![nrf52832 bottom](nrf52832_bottom.jpg)
 ![nrf52832 breakout module](nrf52832_breakout.png)
 
-<a href="NRF52832 Core Board V1.0.pdf" download>NRF52832 module schematic</a>
-<a href="NRF52832 Module Test Board V1.0.pdf" download>NRF52832 module breakout board schematic</a>
-<a href="S132_SDS_v2.0.pdf" download>S132 SoftDevice v2.0 Specification</a>
+### downloads
 
+* <a href="NRF52832 Core Board V1.0.pdf" download>NRF52832 module schematic</a>
+* <a href="NRF52832 Module Test Board V1.0.pdf" download>NRF52832 module breakout board schematic</a>
+* <a href="S132_SDS_v2.0.pdf" download>S132 SoftDevice v2.0 Specification</a>
 
 [micooke.github.io](../)

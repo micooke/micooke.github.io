@@ -10,13 +10,13 @@ The development board itself is a nRF52832 breakout module, smd soldered to a ge
 
 According to the schematics below the generic development board is a ```CC2640RSM/RGZ Module Test Board V1.0``` from ```rf-smart.taobao.com```.
 
-#### RSM configuration - solder J11 to J14
+#### RGZ configuration - solder J11 to J14
 * TX = DIO3
 * RX = DIO2
 * TDO = DIO16
 * TDI = DIO17
 
-#### RGZ configuration - solder J15 to J18
+#### RSM configuration - solder J15 to J18
 * TX = DIO2
 * RX = DIO1
 * TDO = DIO3
@@ -30,22 +30,24 @@ According to the schematics below the generic development board is a ```CC2640RS
 | RST Button    | PIN_BUTTON2          | --            | 31
 | LED1 (top)    | PIN_LED1/LED_BUILTIN | --            | 5
 | LED2 (bottom) | PIN_LED2             | --            | 6
-| TX            | PIN_SERIAL_TX        | RSM           | 3
-| RX            | PIN_SERIAL_RX        | RSM           | 2
-| TDO           | --                   | RSM           | 16
-| TDI           | --                   | RSM           | 17
-| TX            | PIN_SERIAL_TX        | RGZ           | 2
-| RX            | PIN_SERIAL_RX        | RGZ           | 1
-| TDO           | --                   | RGZ           | 3
-| TDI           | --                   | RGZ           | 4
 | MISO          | PIN_SPI_MISO/MISO    | --            | 21
 | MOSI          | PIN_SPI_MOSI/MOSI    | --            | 22
 | SCK           | PIN_SPI_SCK/SCK      | --            | 23
 | SS            | SS                   | --            | 20
-| SDA           | PIN_WIRE_SDA/SDA     | --            | 2
-| SCL           | PIN_WIRE_SCL/SCL     | --            | 3
-
+| TX            | PIN_SERIAL_TX        | None          | 3
+| RX            | PIN_SERIAL_RX        | None          | 2
+| SDA           | PIN_WIRE_SDA/SDA     | None          | 2
+| SCL           | PIN_WIRE_SCL/SCL     | None          | 3
+| TX            | PIN_SERIAL_TX        | RGZ           | 3
+| RX            | PIN_SERIAL_RX        | RGZ           | 2
+| SDA/TDO **    | PIN_WIRE_SDA/SDA     | RGZ           | 16
+| SCL/TDI **    | PIN_WIRE_SCL/SCL     | RGZ           | 17
+| TX            | PIN_SERIAL_TX        | RSM           | 2
+| RX            | PIN_SERIAL_RX        | RSM           | 1
+| SDA/TDO **    | PIN_WIRE_SDA/SDA     | RSM           | 3
+| SCL/TDI **    | PIN_WIRE_SCL/SCL     | RSM           | 4
 * Pin allocation for SPI and I2C reflective of the variant.h as of 6/10/2017 
+** TDO/TDI are not available/used by the nRF5x series, so have been repurposed as SDA/SCL
 
 ### Images
 ![nrf52832 top](nRF52832_TaidaCentury_GoldCore/nrf52832_top.jpg)

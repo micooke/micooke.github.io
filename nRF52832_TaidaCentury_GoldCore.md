@@ -10,6 +10,8 @@ The development board itself is a nRF52832 breakout module, smd soldered to a ge
 
 According to the schematics below the generic development board is a ```CC2640RSM/RGZ Module Test Board V1.0``` from ```rf-smart.taobao.com```.
 
+For further information on this board from @d00616 see  https://github.com/RIOT-OS/RIOT/wiki/Board%3A-nRF52-minidev
+
 #### RGZ configuration - solder J11 to J14
 * TX = DIO3
 * RX = DIO2
@@ -46,7 +48,6 @@ According to the schematics below the generic development board is a ```CC2640RS
 | RX            | PIN_SERIAL_RX        | RSM           | 1
 | SDA/TDO **    | PIN_WIRE_SDA/SDA     | RSM           | 3
 | SCL/TDI **    | PIN_WIRE_SCL/SCL     | RSM           | 4
-* Pin allocation for SPI and I2C reflective of the variant.h as of 6/10/2017 
 ** TDO/TDI are not available/used by the nRF5x series, so have been repurposed as SDA/SCL
 
 ### Images

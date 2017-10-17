@@ -42,13 +42,12 @@ For further information on this board from @d00616 see  https://github.com/RIOT-
 | SCL           | PIN_WIRE_SCL/SCL     | None          | 3
 | TX            | PIN_SERIAL_TX        | RGZ           | 3
 | RX            | PIN_SERIAL_RX        | RGZ           | 2
-| SDA/TDO **    | PIN_WIRE_SDA/SDA     | RGZ           | 16
-| SCL/TDI **    | PIN_WIRE_SCL/SCL     | RGZ           | 17
+| SDA           | PIN_WIRE_SDA/SDA     | RGZ           | 7
+| SCL           | PIN_WIRE_SCL/SCL     | RGZ           | 8
 | TX            | PIN_SERIAL_TX        | RSM           | 2
 | RX            | PIN_SERIAL_RX        | RSM           | 1
-| SDA/TDO **    | PIN_WIRE_SDA/SDA     | RSM           | 3
-| SCL/TDI **    | PIN_WIRE_SCL/SCL     | RSM           | 4
-** TDO/TDI are not available/used by the nRF5x series, so have been repurposed as SDA/SCL
+| SDA           | PIN_WIRE_SDA/SDA     | RSM           | 7
+| SCL           | PIN_WIRE_SCL/SCL     | RSM           | 8
 
 ### Images
 ![nrf52832 top](nRF52832_TaidaCentury_GoldCore/nrf52832_top.jpg)

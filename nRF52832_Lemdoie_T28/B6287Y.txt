@@ -1,0 +1,36 @@
+Genuine Authentic B6287Y Package SOT23-6 Input Voltage 2V-24V Fixed Frequency Current Mode DC-DC Boost IC 
+B6287A, B6287B, B6287C, B6287D, B6287E, B6287F, B6287G, B6287H, B6287I, B6287J, B6287K, B6287L, B6287M, B6287N, B6287O, B6287P, B6287Q, B6287R, B6287S, B6287T, B6287U, B6287V, B6287W, B6287S, B6287Y, B6287Z 
+B6287Y Specifications, Consultation Information 13510122397, B6287Y. 
+The B6287Y is a fixed-frequency, current-mode step-up converter that operates at up to 1.2MHz, enabling smaller inductor sizes to be selected. Built-in soft-start function reduces the starting impact current. Light load automatically switches to PFM mode. Includes input under-voltage lockout, current limit and over-temperature protection. Small footprint saves PCB space. 
+- Integrated 0.8 Ohm High Voltage Power MOSFET 
+- Internal 4A Switching Current Limit 
+- 2V-24V Input Voltage, VFB: 0.6V 
+- 1.2MHz Fixed Operating Frequency 
+- Output Current 2A    
+- Internal Compensation Capability        
+- Output Voltages up to 28V 
+- Light Load Conditions Under, can carry on automatic pulse modulation. 
+- Up to 97% Efficiency 
+Applications: Battery-Operated Devices / Set-Top Boxes / LCD Bias Supplies / Wireless Products and DSL Modems / PCI Cards or Sockets DC-DC / AC-DC Voltage Sense Step-Down DC-DC Synchronous Step-Down ESD Voltage protection
+B6287Y Specifications, details consult 13510122397, B6287Y information. 
+GENERAL DEscriptION: 
+The is a constant frequency, 6-pin SOT23 current mode step-up converter intended for small, low power applications. The switches at 1.2MHz and allows the use of tiny, low cost capacitors and inductors 2mm or less in height. Internal 
+features soft-start results in small inrush current and extends battery life. The features automatic shifting to pulse frequency modulation mode at light loads. The 
+includes under-voltage lockout, currentlimiting, and thermal overload protection to prevent damage in the event of an output overload . in the Available at The IS A Small 6-SOT-23 Package Penalty for the PIN. 
+the FEATURES: 
+- Integrated 80mΩ Power MOSFET 
+- the Input 2V to 24V Voltage 
+- 1.2MHz Fixed Switching Frequency
+- Internal 4A Switch Current Limit 
+- Adjustable Output Voltage 
+- Internal Compensation 
+- Up to 28V Output Voltage 
+- Automatic Pulse Frequency Modulation Mode at Light Loads 
+- up to 97% Efficiency 
+- Available in a 6-Pin SOT23-6 Package 
+APPLICATIONS: 
+- Battery- Powered Equipment 
+- Set-Top Boxed 
+- LCD Bais Supply 
+- DSL and Cable Modems and Routers 
+- Networking Cards powered from PCI or PCI express slots

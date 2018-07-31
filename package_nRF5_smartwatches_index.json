@@ -5,8 +5,28 @@
       "maintainer": "Mark Cooke",
       "websiteURL": "https://github.com/micooke/arduino-nRF5-smartwatches",
       "help": {"online": "https://github.com/micooke/arduino-nRF5-smartwatches/issues"},
-	  "email":"",
+      "email":"",
       "platforms": [
+        {
+          "name": "Nordic Semiconductor nRF5 Smartwatches",
+          "architecture": "nRF5",
+          "version": "0.2.0",
+          "category": "Contributed",
+          "help": {"online": "https://github.com/micooke/arduino-nRF5-smartwatches/issues"},
+          "url": "https://github.com/micooke/arduino-nRF5-smartwatches/releases/download/0.2.0/0.2.0.tar.gz",
+          "archiveFileName": "arduino-nRF5-smartwatches-0.2.0.tar.gz",
+          "checksum": "MD5:fe721c26d56056b7c7301c3e77198d8b",
+          "size": "856200",
+          "boards": [
+            {"name": "IDO003"},
+            {"name": "ID100HR"},
+            {"name": "ID107HR"},
+            {"name": "ID107HR Plus"},
+            {"name": "LEMDOIE T28"},
+            {"name": "Waveshare BLE400 nRF51822"},
+            {"name": "Taida Century (Gold Core) nRF52832"}
+          ]
+        },
         {
           "name": "Nordic Semiconductor nRF5 Smartwatches",
           "architecture": "nRF5",
@@ -16,16 +36,12 @@
           "url": "https://github.com/micooke/arduino-nRF5-smartwatches/archive/0.1.0.tar.gz",
           "archiveFileName": "arduino-nRF5-smartwatches-0.1.0.tar.gz",
           "checksum": "MD5:27E942B5763E6C223930A0A979CE9127",
-          "size": "720896",
+          "size": "718469",
           "boards": [
             {"name": "IDO003"},
             {"name": "ID100HR"},
             {"name": "ID107HR"},
             {"name": "ID107HR Plus"}
-          ],
-          "toolsDependencies": [
-            { "packager": "sandeepmistry", "name": "gcc-arm-none-eabi", "version": "5_2-2015q4" },
-            { "packager": "sandeepmistry", "name": "openocd", "version": "0.10.0-dev.nrf5" }
           ]
         },
         {
@@ -37,15 +53,11 @@
           "url": "https://github.com/micooke/arduino-nRF5-smartwatches/archive/v0.1.0-alpha.tar.gz",
           "archiveFileName": "arduino-nRF5-smartwatch-0.1.0-alpha.tar.gz",
           "checksum": "MD5:8743E7A4E74042614BDEF6D4FA763362",
-          "size": "462848",
+          "size": "459830",
           "boards": [
             {"name": "IDO003"},
             {"name": "ID100HR"},
             {"name": "ID107HR"}
-          ],
-          "toolsDependencies": [
-            { "packager": "sandeepmistry", "name": "gcc-arm-none-eabi", "version": "5_2-2015q4" },
-            { "packager": "sandeepmistry", "name": "openocd", "version": "0.10.0-dev.nrf5" }
           ]
         }
       ],

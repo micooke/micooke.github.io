@@ -18,3 +18,4 @@ Which installs the latest release of:
 
 ### Other Pages
 [Taida Century nRF52 mini board / nRF52832 Gold Core](nRF52832_TaidaCentury_GoldCore)
+[LEMDOIE T28 smartwatch](nRF52832_Lemdoie_T28)

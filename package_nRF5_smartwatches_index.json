@@ -10,6 +10,27 @@
         {
           "name": "Nordic Semiconductor nRF5 Smartwatches",
           "architecture": "nRF5",
+          "version": "0.2.1",
+          "category": "Contributed",
+          "help": {"online": "https://github.com/micooke/arduino-nRF5-smartwatches/issues"},
+          "url": "https://github.com/micooke/arduino-nRF5-smartwatches/releases/download/0.2.1/0.2.1.tar.gz",
+          "archiveFileName": "arduino-nRF5-smartwatches-0.2.1.tar.gz",
+          "checksum": "MD5:ce18b625ed3750d7969ec697acceda5c",
+          "size": "865245",
+          "boards": [
+            {"name": "IDO003"},
+            {"name": "ID100HR"},
+            {"name": "ID107HR"},
+            {"name": "ID107HR Plus"},
+            {"name": "LEMDOIE T28"},
+            {"name": "MPOW DS-D6"},
+            {"name": "Waveshare BLE400 nRF51822"},
+            {"name": "Taida Century (Gold Core) nRF52832"}
+          ]
+        },
+	{
+          "name": "Nordic Semiconductor nRF5 Smartwatches",
+          "architecture": "nRF5",
           "version": "0.2.0",
           "category": "Contributed",
           "help": {"online": "https://github.com/micooke/arduino-nRF5-smartwatches/issues"},

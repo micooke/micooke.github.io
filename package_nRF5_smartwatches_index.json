@@ -15,8 +15,8 @@
           "help": {"online": "https://github.com/micooke/arduino-nRF5-smartwatches/issues"},
           "url": "https://github.com/micooke/arduino-nRF5-smartwatches/releases/download/0.2.1/0.2.1.tar.gz",
           "archiveFileName": "arduino-nRF5-smartwatches-0.2.1.tar.gz",
-          "checksum": "MD5:ce18b625ed3750d7969ec697acceda5c",
-          "size": "865245",
+          "checksum": "MD5:7bc19feb2a59e74dc523b5c2cd59dcf9",
+          "size": "866531",
           "boards": [
             {"name": "IDO003"},
             {"name": "ID100HR"},
